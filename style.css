@@ -1,0 +1,59 @@
+.{
+	p:0;
+	m:0;
+
+}
+body{
+			overflow: hidden;
+}
+.bgclass{
+	color: red;
+	min-height: 100vh;
+	height:100vh;
+	width:100vw;
+	background-repeat: no-repeat;
+	display:flex;
+	justify-content:center;
+	align-content:center;
+
+}
+#playground{
+	background:yellow;
+	width:92vmin;
+	height:92vmin;
+	border:5px solid purple;
+	display:grid;
+	grid-template-rows : repeat(18,1fr);
+	grid-template-columns : repeat(18,1fr);
+
+}
+
+.head{
+	background-color : red;
+	border-radius : 0.3vmax;
+}
+.snake{
+	background-color : blue;
+	border-radius : 0.8vmax;
+}
+.food{
+	background-color : green;
+	border-radius : 0.8vmax;
+}
+
+#title{
+	position:absolute;
+	margin-top:46%;
+	margin-left:35px;
+	font-weight:bold;
+	color: purple;
+}
+#score{
+	position:absolute;
+	margin-right:80%;
+	margin-top:20%;
+	color: black;
+	font-weight:bolder;
+	font-size:1.5vmax;
+	
+}
