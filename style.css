@@ -30,15 +30,16 @@ body{
 
 .head{
 	background-color : red;
-	border-radius : 0.3vmax;
+	border-radius : 1.8vmax;
 }
 .snake{
 	background-color : blue;
-	border-radius : 0.8vmax;
+	border-radius : 1.2vmax;
+        border:2px solid yellow;
 }
 .food{
 	background-color : green;
-	border-radius : 0.8vmax;
+	border-radius : 1.2vmax;
 }
 
 #title{
